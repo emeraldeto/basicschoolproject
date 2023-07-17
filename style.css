@@ -1,0 +1,129 @@
+body{
+    padding:0px;
+    margin: 0px;
+    background-image: url(./image/IMG-20230716-WA0036.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.navbar ul{
+    display: flex;
+    padding-right: 30px;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+
+.navbar li:hover{
+    background-color: #f11672;
+    color: white;
+    border-radius: 8px;
+}
+
+.navbar li{
+    list-style: none;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.navbar input{
+    border: 1px solid #f11672;
+    background-color:#f11672;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 20px;
+    height: 25px;
+    margin-right: 30px;
+
+}
+
+section{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin:0px 180px;
+    align-items: center;
+}
+
+.main h1{
+    font-size: 70px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.main p{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800px;
+    background-color: white;
+    color: black;
+    padding: 20px 20px;
+    margin: 20px 30px;
+    border-radius: 20px;
+    border: 2px solid #0f0f0f;
+    box-shadow: 2px 2px 20px black;
+}
+
+.but button{
+    
+    font-size: 15px;
+    font-weight:700px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    border-radius: 30px;
+    width: 140px;
+    height: 30px;
+    cursor: pointer;
+   
+}
+
+.but{
+    margin-left: 160px;
+}
+
+.letsgo{
+    background-color:#f11672;
+    color: white;
+    font-weight: 800px;
+    border-color:#f11672;
+}
+
+.letsgo a{
+    color: white;
+}
+
+.Learn{
+    background-color:white;
+    color: black;
+    font-weight: 900px;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+    border-color:white;
+}
+.but a{
+    text-decoration: none;
+    text-align: center;
+}
+
+

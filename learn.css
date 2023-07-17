@@ -1,0 +1,55 @@
+body{
+    background-image: url(./image/IMG-20230716-WA0035.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0px;
+    margin: 30px 0px 10px 0px;
+}
+
+
+.enroll h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    border-color: red;
+    background-color: red;
+    margin: 0px;
+    color: whitesmoke;
+}
+
+.enroll h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    border-color: red;
+    background-color: #0a0a0a;
+    margin: 0px;
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+.enroll p{
+    font-size: 30px;
+    color: #faf5f5;
+    background-color: #444443;
+}
+
+.only button{
+    
+    font-size: 15px;
+    font-weight:700px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    border-radius: 30px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.only a{
+    text-decoration: none;
+    color: black;
+}
